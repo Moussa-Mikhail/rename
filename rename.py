@@ -8,9 +8,9 @@ def main():
 
     # There might be a problem with not using raw strings here
     # but for now this will do.
-    pattern = input("Pattern:")
+    pattern = input("Pattern:").strip()
 
-    repl = input("Replacement:")
+    repl = input("Replacement:").strip()
 
     for filename in os.listdir(dirpath):
 
