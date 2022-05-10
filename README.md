@@ -14,15 +14,14 @@ folder
 └── rename.py
 ```
 
-
+Command example
 ```
-folder>python rename.py
+folder>rename.py
 Pattern: (\w+) (\d).txt
 Replacement: \2 \1.txt
 ```
 
 Files after running
-
 ```
 folder
 ├── 1 file.txt
