@@ -2,7 +2,7 @@
 small Python script used to batch rename files using regex
 
 ## Example usage
-rename.py must be placed in the folder it will be used in (or in a folder in your PATH variable).
+rename.py must be placed in the folder it will be used in (or in a folder included in PATH). If placed in PATH then it will called by "rename.py" quotes included in the command.
 
 Example files before running
 ```
