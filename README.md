@@ -21,6 +21,11 @@ Pattern: (\w+) (\d).txt
 Replacement: \2 \1.txt
 ```
 
+If rename.py is placed in PATH then it will be called
+```
+folder>"rename.py"
+```
+
 Files after running
 ```
 folder
