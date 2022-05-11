@@ -16,14 +16,14 @@ folder
 
 Command example
 ```
-folder>rename.py
+C:\path\to\folder>rename.py
 Pattern: (\w+) (\d).txt
 Replacement: \2 \1.txt
 ```
 
-If rename.py is placed in PATH then it will be called
+If rename.py is placed in PATH then it will be called by
 ```
-folder>"rename.py"
+C:\path\to\folder>"rename.py"
 ```
 
 Files after running
