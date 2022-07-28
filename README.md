@@ -14,10 +14,10 @@ folder
 └── rename.py
 ```
 
-Command example
+Example command
 ```
 C:\path\to\folder>rename.py
-Pattern: (\w+) (\d).txt
+Match: (\w+) (\d).txt
 Replacement: \2 \1.txt
 ```
 
