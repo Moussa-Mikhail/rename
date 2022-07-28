@@ -8,13 +8,13 @@ def main():
 
     # There might be a problem with not using raw strings here
     # but for now this will do.
-    pattern = input("Pattern:").strip()
+    match = input("Match:").strip()
 
     repl = input("Replacement:").strip()
 
     for filename in os.listdir(dirpath):
 
-        new_filename = re.sub(pattern, repl, filename)
+        new_filename = re.sub(match, repl, filename)
 
         src = f"{dirpath}/{filename}"
 
